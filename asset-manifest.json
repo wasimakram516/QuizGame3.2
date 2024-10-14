@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/QuizGame3.2/static/css/main.0c50b9b2.css",
+    "main.js": "/QuizGame3.2/static/js/main.3b324967.js",
+    "static/js/453.f9c5339a.chunk.js": "/QuizGame3.2/static/js/453.f9c5339a.chunk.js",
+    "static/media/CorrectAnswer.webp": "/QuizGame3.2/static/media/CorrectAnswer.6111eaba3ac227ab8f40.webp",
+    "static/media/Background.webp": "/QuizGame3.2/static/media/Background.ed4618de208eb9cbce1d.webp",
+    "static/media/START.webp": "/QuizGame3.2/static/media/START.3d836f19638ec0d5bdfc.webp",
+    "static/media/OQGNLogo.webp": "/QuizGame3.2/static/media/OQGNLogo.6e9457e66e87a9f7a8c5.webp",
+    "static/media/NewBG.webp": "/QuizGame3.2/static/media/NewBG.4eb02f7c3466990c264f.webp",
+    "static/media/InteractiveQuiz.webp": "/QuizGame3.2/static/media/InteractiveQuiz.6576a091558072b5e2cf.webp",
+    "static/media/AnnualHSE.webp": "/QuizGame3.2/static/media/AnnualHSE.0a3b74bcb89893c18af8.webp",
+    "static/media/NewBGIntro.webp": "/QuizGame3.2/static/media/NewBGIntro.f321caabc7d94ac1a694.webp",
+    "static/media/IncorrectAnswerB.webp": "/QuizGame3.2/static/media/IncorrectAnswerB.e219bc359439ab9c6ed7.webp",
+    "static/media/IncorrectAnswerC.webp": "/QuizGame3.2/static/media/IncorrectAnswerC.4158525b425bc8206122.webp",
+    "static/media/IncorrectAnswerA.webp": "/QuizGame3.2/static/media/IncorrectAnswerA.14a77b6c9991dae9a4a7.webp",
+    "static/media/IncorrectAnswerD.webp": "/QuizGame3.2/static/media/IncorrectAnswerD.0be5790cebbdc04a47cf.webp",
+    "index.html": "/QuizGame3.2/index.html",
+    "main.0c50b9b2.css.map": "/QuizGame3.2/static/css/main.0c50b9b2.css.map",
+    "main.3b324967.js.map": "/QuizGame3.2/static/js/main.3b324967.js.map",
+    "453.f9c5339a.chunk.js.map": "/QuizGame3.2/static/js/453.f9c5339a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c50b9b2.css",
+    "static/js/main.3b324967.js"
+  ]
+}
