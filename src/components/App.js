@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import StartScreen from './StartScreen';
-import Quiz from './quiz';  // Make sure the import casing is correct
+import Quiz from './Quiz'; 
 import ResultScreen from './ResultScreen';
-import quizData from '../data/quizData'; // Quiz data for Section A
+import quizData from '../data/quizData';
 
 
 function App() {
-  const [gameState, setGameState] = useState('start'); // 'start', 'sectionA', 'quizA', 'sectionB', 'quizB', 'result'
+  const [gameState, setGameState] = useState('start'); // 'start', 'quiz', 'result'
   const [score, setScore] = useState(0);
 
   // Start the game 
@@ -29,12 +29,12 @@ function App() {
     <div className="App">
       {gameState === 'start' && <StartScreen startGame={startGame} />}
       
-      {/* Quiz A */}
+      {/* Quiz */}
       {gameState === 'quiz' && (
         <Quiz
           endGame={endGame}
           incrementScore={() => setScore(score + 1)}
-          quizData={quizData} // Pass Section A data
+          quizData={quizData} 
           restartGame={restartGame}
         />
       )}

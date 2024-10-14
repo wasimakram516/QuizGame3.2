@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100%;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.start-screen {
+  position: relative;
+  background-image: url('../src/assets/Intro/NewBGIntro.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.section-screen {
+  position: relative;
+  background-image: url('../src/assets/SectionA/Background.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.quiz-screen {
+  width: 100%;
+  background-image: url('../src/assets/QuestionAnswerSection/NewBG.webp');
+  min-height: 100vh; /* Ensures it takes the full viewport height */
+  height: auto;      /* Allows it to grow with the content */
+  background-attachment: fixed;
+  background-size: cover; /* Ensures the background covers the whole area */
+  background-position: center; /* Center the background image */
 }
 
-.App-link {
-  color: #61dafb;
+
+.annual-hse {
+  position: absolute;
+  top: 40%;
+  left: 50%; 
+  transform: translateX(-50%); 
+  z-index: 10;
+  height: auto;
+  width: 200px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.section-logo {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  z-index: 10;
+  height: auto;
+  width: 250px;
+}
+
+.interactive-quiz {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  height: auto;
+  width: 150px;
+}
+
+.oqgn-logo {
+  position: absolute;
+  top: 20%;
+  left: 5%;
+  height: auto;
+  width: 150px;
+}
+
+.start-button img {
+  width: 150px;
+  /* Adjust the width of the start button image */
 }
